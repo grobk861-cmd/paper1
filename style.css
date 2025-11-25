@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: rgb(143, 211, 169);
+
+}
+.butter {
+    width: 1000px;
+    height: 600px;
+    background: linear-gradient(
+    to right,
+    rgb(60, 255, 0),
+    rgb(36, 155, 0)    
+    );
+    border-radius: 9px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+
+}
+.imagetwo {
+     width: 490px;
+    height: 350px;
+    background-color: rgb(150, 179, 121);
+    box-shadow: 0 0 2px 2px rgb(136, 136, 136);
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+
+}
+.popo {
+     width: 350px;
+    height: 400px;
+
+}
+.imagethree {
+     width: 490px;
+    height: 100px;
+     background: linear-gradient(
+    to right,
+    rgb(36, 155, 0),
+    rgb(60, 255, 0)
+       
+    );
+    margin-left: 400px;
+    border-radius: 30px;
+    transition: 0.5s;
+
+
+}
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h4 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+
+
+}
+.pay {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+.number {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(102, 102, 102);
+
+}
+.imagethree:hover {
+    box-shadow: 0 0 5px 5px black;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.imagefour {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 2px;
+
+}
+.pan {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
